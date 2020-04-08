@@ -8,9 +8,9 @@ public class ClassWork {
 		String vacationType;
 		String result;
 		int groupSize;
-		
-		System.out.println("Please select a type of vacation from adventurous, musical, or tropical." + vacationType);
 		vacationType = userInput.next();
+		System.out.println("Please select a type of vacation from adventurous, musical, or tropical.");
+		
 		
 		if (vacationType.equals("adventurous")) {
 			System.out.println("Thank you for choosing a trip to the Grand Canyon!");
@@ -24,9 +24,9 @@ public class ClassWork {
 		else {
 			System.out.println("Please choose either adventurous, musical, or tropical.");
 		}
-			
-		System.out.println("How many will be going on this vacation?" + groupSize);
-		groupSize = userInput.nextInt();
+		groupSize = userInput.nextInt();	
+		System.out.println("How many will be going on this vacation?");
+		
 		
 		if ((groupSize > 0) && (groupSize <= 2)) {
 			System.out.println("We recommend groups of " + groupSize + " fly first class.");
@@ -39,7 +39,7 @@ public class ClassWork {
 		}
 		
 		System.out.println("Thank you for filling in the above information!");
-		result = ("You are a group of " + groupSize + ", going on a " + vacationType + "vacation, enjoy!");
+		result = ("You are a group of " + groupSize + ", going on an " + vacationType + " vacation, enjoy!");
 		System.out.println(result);
 			
 			
