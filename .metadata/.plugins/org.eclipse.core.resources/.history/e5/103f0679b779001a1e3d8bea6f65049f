@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ClassWork {
+
+	public static void main(String[] args) {
+		Scanner userInput = new Scanner(System.in);
+		
+		String vacaType;
+		int vacaAmount;
+		
+		System.out.println("Please select the type of vacation you would like to go on ");
+		System.out.println("from this list of musical, adventurous, or tropical: " + vacaType);
+		vacaType = userInput.next();
+		
+		System.out.println("Please determine how many will be joining you: " + vacaAmount);
+		vacaAmount = userInput.nextInt();
+		
+		
+		
+		
+			
+
+	}
+
+}

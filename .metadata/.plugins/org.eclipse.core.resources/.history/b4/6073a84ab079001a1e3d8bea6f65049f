@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ClassWork {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		
+		String vacationType;
+		int groupSize;
+		
+		vacationType = scnr.next();
+		
+		System.out.println("What kind of getaway would you like to go on, ");
+		System.out.println(" musical, tropical, or adventurous? " + vacationType);
+		
+		
+		
+			
+
+	}
+
+}
